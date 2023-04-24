@@ -14,6 +14,7 @@ body {
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0;
 }
 
 /* header styles */
@@ -36,7 +37,6 @@ header img {
 header ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
 
     display: flex;
     gap: 16px;
@@ -81,13 +81,11 @@ header a:active {
     font-size: 4.8rem;
     font-weight: 900;
     color: #f9faf8;
-    margin: 0;
 }
 
 .intro p {
     font-size: 1.8rem;
     color: #e5e7eb;
-    margin-block-start: 0px;
     margin-block-end: 16px;
 }
 
@@ -139,6 +137,7 @@ header a:active {
 
 .info p {
     font-size: 1.8rem;
+    margin: 1em 0;
 }
 
 .info-container {
@@ -168,4 +167,23 @@ header a:active {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* quote */
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 3.6rem;
+    font-style: italic;
+    font-weight: 100;
+
+    padding: 96px 196px;
+}
+
+.who-said-it {
+    font-size: 2.4rem;
+    font-weight: 900;
+    font-style: normal;
+    text-align: right;
 }
