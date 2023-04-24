@@ -203,6 +203,7 @@ header a:active {
 .call-to-action .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 32px;
 
     background-color: #3882f6;
