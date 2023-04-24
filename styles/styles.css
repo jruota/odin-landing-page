@@ -232,3 +232,14 @@ header a:active {
     padding: 6px;
     width: 10em;
 }
+
+/* footer */
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 1.8rem;
+    padding: 32px 160px;
+
+    text-align: center;
+}
