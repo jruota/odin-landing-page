@@ -17,6 +17,18 @@ body {
     margin: 0;
 }
 
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-family: inherit;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    width: 10em;
+}
+
 /* header styles */
 
 header {
@@ -87,18 +99,6 @@ header a:active {
     font-size: 1.8rem;
     color: #e5e7eb;
     margin-block-end: 16px;
-}
-
-.intro button {
-    background-color: #3882f6;
-    color: #e5e7eb;
-    font-family: inherit;
-    font-size: 1.8rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    padding: 6px;
-    width: 10em;
 }
 
 .intro .right {
@@ -223,15 +223,7 @@ header a:active {
 }
 
 .call-to-action button {
-    background-color: #3882f6;
-    color: #e5e7eb;
-    font-family: inherit;
-    font-size: 1.8rem;
-    font-weight: bold;
     border: 3px solid #e5e7eb;
-    border-radius: 5px;
-    padding: 6px;
-    width: 10em;
 }
 
 /* footer */
